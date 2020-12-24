@@ -12,3 +12,8 @@ for i in $files; do
 done
 echo '</ul></center></body></html>' >> $main
 echo '首页文件生成完毕'
+
+# push to github
+git add .
+git commit -m "update"
+git push
